@@ -44,6 +44,7 @@ footer.attribution {
   border-radius: 10px;
   bottom: 10px;
   left: 50%;
+  opacity: 0.85;
   padding: 6px 14px;
   position: fixed;
   transform: translateX(-50%);
@@ -180,6 +181,9 @@ footer.attribution {
   }
 }
 @media screen and (max-width: 720px) {
+  main {
+    padding-bottom: 70px;
+  }
   .grid {
     display: block;
   }
