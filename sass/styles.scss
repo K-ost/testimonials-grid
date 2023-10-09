@@ -153,15 +153,15 @@ footer.attribution {
 @media screen and (max-width: 1020px) {
   .grid {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
+    grid-template-rows: row;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
   }
   .item1 { grid-area: 1 / 1 / 2 / 3; }
   .item2 { grid-area: 1 / 3 / 2 / 4; }
-  .item5 { grid-area: 2 / 1 / 3 / 2; }
-  .item4 { grid-area: 2 / 2 / 3 / 4; }
-  .item3 { grid-area: 3 / 1 / 4 / 4; }
+  .item3 { grid-area: 2 / 1 / 3 / 4; }
+  .item4 { grid-area: 3 / 1 / 4 / 2; }
+  .item5 { grid-area: 3 / 2 / 4 / 4; }
 }
 
 @media screen and (max-width: 720px) {
